@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+}
+
+body {
+    height: 200vh;
+    background-color: #CED0CE;
+    overflow-x: hidden;
+}
+
+button {
+    margin: 30px;
+}
+
+.no-scroll {
+    overflow: hidden;
+}
+
+.overlay {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+}
+
+.menu {
+    width: 200px;
+    height: 100vh;
+    background-color: #9FB8AD;
+    color: #fff;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transform: translate(200px);
+    transition: 1.5s;
+}
+
+.mostrar-menu {
+    transform: translate(0)
+}
+
+.ocultar {
+    display: none;
+}

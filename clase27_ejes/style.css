@@ -1,0 +1,237 @@
+.main-button {
+    background-color: #dc6bad;
+    border: none;
+    transition: 0.3s;
+    outline-color: #8c7aa9;
+}
+
+.main-button:hover {
+    background-color: #c6e377;
+}
+
+
+/* ejemplo 1  */
+
+.exemplo-1 {
+    height: 100px;
+    width: 200px;
+    background-color: #8c7aa9;
+    transition: 2s;
+}
+
+.exemplo-1:hover {
+    width: 400px;
+    background-color: #fbbfca;
+}
+
+
+/* ejemplo 2 */
+
+.exemplo-2 {
+    height: 100px;
+    width: 200px;
+    background-color: #ffd670;
+    transition: 2s;
+}
+
+.exemplo-2:hover {
+    background-color: #dc6bad;
+    box-shadow: 10px 10px 10px rgba(213, 248, 17, 0.9);
+}
+
+
+/* ejemplo 3 */
+
+.exemplo-3 {
+    height: 100px;
+    width: 200px;
+    background-color: #7192be;
+    transition: 2s;
+}
+
+.exemplo-3:hover {
+    width: 300px;
+    height: 200px;
+    background-color: #ff9770;
+}
+
+
+/* ejemplo 4 */
+
+.exemplo-4 {
+    height: 100px;
+    width: 200px;
+    background-color: #dc6bad;
+    transition: 4s linear;
+}
+
+.exemplo-4:hover {
+    width: 400px;
+    background-color: #ffd670;
+}
+
+
+/* ejemplo 5 */
+
+.exemplo-5 {
+    height: 100px;
+    width: 200px;
+    background-color: #096b72;
+    transition: all 2s;
+}
+
+.exemplo-5:hover {
+    transform: translateY(40px);
+    background-color: #8cdfd6;
+}
+
+
+/* ejemplo 6 */
+
+.exemplo-6 {
+    height: 100px;
+    width: 200px;
+    background-color: #4a4063;
+    transition: all 2s;
+}
+
+.exemplo-6:hover {
+    transform: translate(40px);
+    background-color: #b5f44a;
+}
+
+
+/* ejemplo 7 */
+
+.exemplo-7 {
+    height: 100px;
+    width: 200px;
+    background-color: #7192be;
+    transition: all 2s;
+}
+
+.exemplo-7:hover {
+    transform: translate(40px, -20px);
+    background-color: #efabff;
+}
+
+
+/* ejemplo 8 */
+
+.exemplo-8 {
+    height: 100px;
+    width: 200px;
+    background-color: #f2b880;
+    transition: all 2s;
+}
+
+.exemplo-8:hover {
+    margin: 100px;
+    transform: scale(2);
+    background-color: #9a879d;
+}
+
+
+/* ejemplo 9 */
+
+.card {
+    width: 200px;
+    height: 300px;
+    border: 2px solid black;
+}
+
+.image {
+    margin: 20px;
+    overflow: hidden;
+}
+
+.image img {
+    width: 100%;
+    transition: all 0.5s linear;
+}
+
+.image img:hover {
+    transform: scale(1.2);
+}
+
+
+/* ejemplo 10 */
+
+.exemplo-10 {
+    height: 100px;
+    width: 100px;
+    background-color: #0892a5;
+    transition: all 3s;
+}
+
+.exemplo-10:hover {
+    margin: 20px;
+    background-color: #ffe156;
+    transform: rotate(720deg);
+}
+
+
+/* ejemplo 11 */
+
+.exemplo-11 {
+    height: 100px;
+    width: 100px;
+    background-color: #ddedaa;
+    transition: 2s;
+}
+
+.exemplo-11:hover {
+    margin: 20px;
+    background-color: #dc6264;
+    transform: skew(20deg, 20deg);
+}
+
+
+/* ejemplo 12 */
+
+.exemplo-12 {
+    height: 150px;
+    width: 150px;
+    background-color: #f78142;
+    transition: 1s;
+}
+
+.exemplo-12:hover {
+    margin: 20px;
+    background-color: #c0c3d7;
+    transform: scale(0.5) rotate(360deg) skew(30deg);
+}
+
+
+/* ejemplo 13 */
+
+.card-1 {
+    width: 200px;
+    height: 355px;
+    position: relative;
+    overflow: hidden;
+}
+
+.card-1 img {
+    width: 100%;
+    height: auto;
+}
+
+.overlay {
+    background-color: rgba(213, 248, 17, 0.9);
+    position: absolute;
+    top: 355px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    box-sizing: border-box;
+    color: #165b9b;
+    transition: 2s;
+}
+
+.card-1:hover .overlay {
+    top: 0;
+}
